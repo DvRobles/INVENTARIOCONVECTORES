@@ -1,24 +1,3 @@
-// const nombreProducto = document.querySelector('#nombre');
-// const codigoProducto = document.querySelector('#codigo');
-// const costoProducto = document.querySelector('#costo');
-// const cantidadProducto = document.querySelector('#cantidad');
-// const eliminarProducto = document.querySelector('#eliminar-producto');
-// const buscarProducto = document.querySelector('#buscar');
-// const form = document.querySelector('nuevo-producto');
-
-
-
-// const btnEliminar = document.querySelector('#eliminar');
-// const btnListar = document.querySelector('#listar');
-// const btnlistadoInverso = document.querySelector('#listar-inverso');
-// let inventarioProductos = document.querySelector('#inventario');
-
-
-
-
-// let editando;
-
-
 
 class Inventario {
     constructor(){
@@ -83,32 +62,7 @@ class Inventario {
 
 
 
-// function datosProductos(e) {
-//     productosObj[e.target.name] = e.target.value;
 
-//     console.log(productosObj)
-// }
-
-
-
-
-
-// class Contenido {
-//     imprimirProductos({productos}){
-//         productos.forEach( producto => {
-//             const { nombre, codigo, costo, cantidad } = producto;
-
-
-//             const divProducto = document.createElement('div');
-//             divProducto.classList.add('cita', 'p-3');
-//             divProducto.dataset.id = 10;
-
-
-
-//         })
-//         contenedorProductos.appendChild(divProducto);
-//     }
-// }
 
 
 
@@ -121,18 +75,7 @@ class Productos {
 
     }
 
-    codigo(){
-        return this.codigo;
-    }
-    nombre(){
-        return this.nombre;
-    }
-    cantidad(){
-        return this.cantidad;
-    }
-    costo(){
-        return this.costo;
-    };
+
 
     data(){
         return `El Codigo del producto es: ${this.codigo}, 
